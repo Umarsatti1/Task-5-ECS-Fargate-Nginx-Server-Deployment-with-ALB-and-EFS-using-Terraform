@@ -94,9 +94,6 @@ Now open:
 http://localhost:8080
 ```
 
-### **3. Test EFS-like directory locally**
-Create a directory to simulate EFS storage:
-
 ```bash
 mkdir -p local-efs
 docker run -p 8080:80 -v $(pwd)/local-efs:/mnt/data my-nginx-app
