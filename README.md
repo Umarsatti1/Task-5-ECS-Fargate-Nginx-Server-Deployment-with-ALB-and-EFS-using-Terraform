@@ -180,7 +180,7 @@ Use:
 ```
 instead of `/`.
 
-### **State lock error?**
+### **State lock error**
 Use:
 ```
 terraform force-unlock <LOCK_ID>
