@@ -21,7 +21,6 @@ This repository contains a fully modular Terraform configuration for deploying a
     ├── terraform.tfvars      # User-supplied values
     └── modules/
         ├── vpc/
-        ├── sg/
         ├── ecr/
         ├── alb/
         ├── task_definition/
